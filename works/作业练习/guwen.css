@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(image/琵琶行模糊背景图3840px.png);
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+}
+.head {
+  position: fixed;
+}
+.ziti1 {
+  font-size: 20px;
+  color: black;
+}
+.ziti2 {
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+}
+.baise {
+  background-color: white;
+}
+.yinying {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.mg8 {
+  margin: 8px;
+}
+.mgr8 {
+  margin-right: 8px;
+}
+.mgt18 {
+  margin-top: 18px;
+}
+.quyu:hover {
+  transform: scale(1.01);
+}
+.quyu1:hover {
+  transform: scale(1.06);
+}
+.quyu2:hover {
+  transform: scale(1.2);
+}
+.dise:hover {
+  background-color: #bebebe;
+}
+.fangkaung {
+  height: 1000px;
+  width: 960px;
+  opacity: 0.8;
+}
+.nhz {
+  background: white;
+  width: 820px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+.tbl {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  z-index: 1;
+  opacity: 0.8;
+}
+.zt1 {
+  font-family: "SunYat-senHsingshu";
+  font-size: 25px;
+}
+.zt2 {
+  font-family: "li xuke";
+  font-size: 25px;
+}
+@font-face {
+  font-family: "SunYat-senHsingshu";
+  src: url(font/中山行书百年纪念版.ttf) format("truetype"),
+    url(font/中山行书百年纪念版.ttf) format("truetype"),
+    url(font/中山行书百年纪念版.ttf) format("woff"),
+    url(font/中山行书百年纪念版.ttf) format("opentype"),
+    url(font/中山行书百年纪念版.ttf) format("truetype-aat"),
+    url(font/中山行书百年纪念版.ttf) format("embedded-opentype"),
+    url(font/中山行书百年纪念版.ttf) format("avg");
+}
+@font-face {
+  font-family: "li xuke";
+  src: url(font/刘梦吟书法行楷.ttf) format("truetype"),
+    url(font/中山行书百年纪念版.ttf) format("truetype"),
+    url(font/中山行书百年纪念版.ttf) format("woff"),
+    url(font/中山行书百年纪念版.ttf) format("opentype"),
+    url(font/中山行书百年纪念版.ttf) format("truetype-aat"),
+    url(font/中山行书百年纪念版.ttf) format("embedded-opentype"),
+    url(font/中山行书百年纪念版.ttf) format("avg");
+}

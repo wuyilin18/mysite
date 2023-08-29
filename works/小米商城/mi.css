@@ -1,0 +1,363 @@
+body {
+  background-color: #fafafa;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.shadow:hover {
+  /* 盒子阴影 */
+  box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, 0.1);
+  /* 盒子向上移动效果，改变上外边距 */
+  /* margin-top: 5px; */
+}
+.boxshadow:hover {
+  /* 盒子阴影 */
+  box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, 0.1);
+  /* 盒子向上移动效果，改变上外边距 */
+  /* margin-top: 5px; */
+  transform: scale(1.02);
+  /*缩放*/
+}
+.sep {
+  font-family: sans-serif;
+  margin: 0 0.3em;
+  color: #665f5f;
+}
+header {
+  /* position: fixed; */
+  background-color: #333333;
+}
+.head {
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+}
+.center {
+  margin: 0 auto;
+  width: 1226px;
+  height: 40px;
+  justify-content: space-between;
+}
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  cursor: pointer;
+}
+.nav li active {
+  background-color: #868686;
+  color: #fff;
+}
+header div div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header div div li {
+  float: left;
+  padding: 12px 0px;
+}
+header div div li:last-child {
+  border-right: none;
+}
+header div div li a {
+  display: block;
+  color: #c8c8c8;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+header div div li a:hover:not(.active) {
+  color: #fff;
+}
+.jiasheng {
+  background-color: #424242;
+  width: 120px;
+}
+.tbl {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+div nav {
+  margin: 0 auto;
+  width: 1226px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+div nav div img {
+  margin: 20px 0px 20px 10px;
+}
+div nav div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+div nav div ul li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+div nav div ul li:last-child {
+  border-right: none;
+}
+div nav div ul li a {
+  display: block;
+  color: #434343;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav div ul li a:hover:not(.active) {
+  color: #e88181;
+}
+/*搜索框*/
+* {
+  box-sizing: border-box;
+}
+
+div form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(229, 229, 229);
+  float: left;
+  width: 80%;
+  background: #ffffff;
+}
+
+div form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #ffffff;
+  color: rgb(132, 125, 125);
+  font-size: 17px;
+  border: 1px solid rgb(229, 229, 229);
+  border-left: none;
+  cursor: pointer;
+}
+
+div form.example button:hover {
+  background: #fd6c03;
+}
+
+div form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*横幅栏*/
+.banner {
+  margin: 0 auto;
+  width: 1226px;
+}
+div div section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  width: 233px;
+  background-color: #a5a09c;
+}
+div div section ul li a {
+  display: block;
+  width: 233px;
+  font-size: 14px;
+  height: 44px;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: start;
+  text-decoration: none;
+  justify-content: space-between;
+}
+/* 鼠标移动到选项上修改背景颜色 */
+div div section ul li a:hover {
+  background-color: #fd6c03;
+  color: #ffffff;
+}
+.arrow {
+  border: solid rgb(230, 230, 230);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin: auto;
+}
+.down {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+/*横幅栏1*/
+section {
+  height: 495px;
+  margin: 0 auto;
+  width: 1226px;
+}
+.mgr15 {
+  margin-right: 15px;
+}
+.banner1 {
+  height: 120px;
+  margin: 30px auto 15px auto;
+  width: 1226px;
+}
+/*中部*/
+fangkaung {
+  width: 1226px;
+  height: 672px;
+  margin: 0 auto;
+}
+fangkuang section {
+  justify-content: space-between;
+  align-items: center;
+  width: 1226px;
+  height: 58px;
+  margin: 15px auto 0 auto;
+}
+fangkuang section p {
+  font-size: 21px;
+  color: #868686;
+}
+fangkuang section span div {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #b0b0b0;
+}
+.arrow1 {
+  border: solid rgb(253, 253, 253);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 1px 3px 3px 5px;
+}
+box {
+  height: 614px;
+  margin: 0px auto;
+  width: 1226px;
+}
+sbox {
+  width: 992px;
+  height: 614px;
+  flex-wrap: wrap;
+}
+smallbox {
+  background-color: #fff;
+  width: 234px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mgbox {
+  margin: 0 14px 14px 14px;
+}
+.mgbox1 {
+  margin: 0 14px 14px 0px;
+}
+.mgbox2 {
+  margin: 0 0px 14px 0px;
+}
+.title {
+  /* margin: 0 10px; */
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.desc {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 214px;
+  margin: 0 10px 10px;
+  height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.price {
+  margin: 0 10px 14px;
+  text-align: center;
+  color: #ff6700;
+}
+div footer {
+  background-color: #fff;
+  width: 1226px;
+  height: 392px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.footercenter {
+  margin: 0px auto;
+}
+fianl {
+  margin: 0 auto;
+  width: 1226px;
+}
+final span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5d5a5a;
+}
+final span1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #5d5a5a;
+}
+final span2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #5d5a5a;
+}
+final p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 18px;
+  color: #868686;
+}
+@media (max-width: 1080px) {
+  .top_and_bottom {
+    width: 1224px;
+  }
+}

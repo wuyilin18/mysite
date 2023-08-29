@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(image/minimalist-landscape-nature-sunrise-river-mountains-trees-a1962.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  min-width: 1000px;
+}
+.arrow {
+  border: solid rgb(188, 188, 188);
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 20px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.head {
+  position: fixed;
+}
+.ziti1 {
+  font-size: 30px;
+}
+.flex {
+  display: flex;
+}
+
+.baise {
+  background-color: white;
+}
+.yinying {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.mg8 {
+  margin: 8px;
+}
+.mgr {
+  margin-right: 100px;
+}
+.mgt8 {
+  margin-top: 8px;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.mgt60 {
+  margin-top: 60px;
+}
+.quyu:hover {
+  transform: scale(1.05);
+}
+.quyu1:hover {
+  transform: scale(1.01);
+}
+.quyu2:hover {
+  transform: scale(1.2);
+}
+.dise:hover {
+  background-color: #bebebe;
+}
+.fangkuang {
+  justify-content: space-between;
+  height: 400px;
+  width: 600px;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+.fangkuang2 {
+  justify-content: space-between;
+  height: 1000px;
+  width: 600px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 25px;
+  opacity: 0.9;
+}
+/* 头部栏 */
+.tbl {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+/*简介页的方框里的盒子*/
+.nhz {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  width: 250px;
+  margin: 1px 170px 10px 165px;
+}
+@media (max-width: 600px) {
+  .cebian {
+    display: none;
+  }
+  .neirong {
+    flex-direction: column;
+  }
+  .xiangmuqu {
+    flex-direction: column;
+  }
+  .youqu {
+    margin-left: 8px;
+  }
+  .xiangmu {
+    margin: 0 0 8px;
+    flex: auto;
+  }
+}

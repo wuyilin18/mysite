@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(https://z4a.net/images/2023/04/02/landscape-mountains-forest-watch-tower-minimalist-minimalism-y712.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flex {
+  display: flex;
+}
+header {
+  display: flex;
+  width: 100%;
+  min-width: 1080px;
+  height: 40px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  cursor: pointer;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 26px;
+  font-size: 16px;
+  color: rgb(196, 196, 196);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.active {
+  color: #6cacc5;
+}
+li a:hover:not(active) {
+  color: #6ccaee;
+}
+main {
+  height: 350px;
+  width: 800px;
+  margin: 10% auto;
+  border-radius: 20px;
+  background: rgba(16, 16, 16, 0.7);
+}
+form {
+  height: 350px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 12px 8px 0 rgba(0, 0, 0, 0.2);
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+input {
+  width: 180px;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding: 5px 30px;
+  background: #ffffff00;
+  color: #fff;
+}
+button {
+  margin-top: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, #74c7eb 0%, #6a7ed5 100%);
+  border-radius: 30px;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 400px;
+  height: 40px;
+}
+button:hover {
+  color: #212121;
+  transform: scale(0.95, 0.95);
+}
+.name {
+  background: url(https://z4a.net/images/2023/04/13/59743259a27d7306f92c0aa5c471c2c6.png)
+    no-repeat;
+  background-position: 5px;
+  background-size: 20px;
+  align-items: center;
+}
+.passward {
+  background: url(https://z4a.net/images/2023/04/13/-08fdc73cbb082b40.png)
+    no-repeat;
+  background-position: 5px;
+  background-size: 20px;
+  align-items: center;
+}
