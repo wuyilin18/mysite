@@ -42,6 +42,7 @@ li {
   position: relative;
   text-align: center;
   overflow: hidden;
+  font-family: 微软雅黑;
 }
 .background::before {
   content: "";
@@ -530,4 +531,35 @@ li {
 .index-content span {
   font-size: 1.2rem;
   padding: 1rem 0;
+}
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .background {
+    font: 900 14rem "";
+    line-height: 130vh;
+  }
+}
+@media (min-width: 992px) and (max-width: 1023px) {
+  .background {
+    font: 900 13rem "";
+    line-height: 130vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .background {
+    font: 900 11rem "";
+    line-height: 130vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .background {
+    font: 900 7rem "";
+    line-height: 130vh;
+  }
+}
+@media (max-width: 576px) {
+  .background {
+    font: 900 5rem "";
+    line-height: 130vh;
+  }
 }
